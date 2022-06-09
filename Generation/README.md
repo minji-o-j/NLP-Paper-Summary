@@ -24,8 +24,8 @@
 - Unlikelihood Training 제안
   - Unlikelihood Training
     - 원하지 않는 특정 토큰 (**negative candidates**) 를 줄이는 것을 목적으로 함
-    - ![image-20220609110158729](C:\Users\Minji\AppData\Roaming\Typora\typora-user-images\image-20220609110158729.png)
+    - ![image](https://user-images.githubusercontent.com/45448731/172748560-686c6c7f-207f-4f3b-b90e-c6f66f0e3f23.png)
   - Sequence-Level Unlikelihood Training
     - Decoded된 문장에 negative candidates를 넣고 token에 페널티를 줌
-    - ![image-20220609110136554](C:\Users\Minji\AppData\Roaming\Typora\typora-user-images\image-20220609110136554.png)
+    - ![image](https://user-images.githubusercontent.com/45448731/172748534-c7a47448-f458-4d13-aaa6-16664396cec8.png)
 
