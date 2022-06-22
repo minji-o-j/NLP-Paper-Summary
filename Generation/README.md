@@ -29,3 +29,11 @@
     - Decoded된 문장에 negative candidates를 넣고 token에 페널티를 줌
     - ![image](https://user-images.githubusercontent.com/45448731/172748534-c7a47448-f458-4d13-aaa6-16664396cec8.png)
 
+
+
+---
+
+## Learning to summarize with human feedback
+
+- NeurIPS 2020
+- link: https://proceedings.neurips.cc/paper/2020/file/1f89885d556929e98d3ef9b86448f951-Paper.pdf
