@@ -33,7 +33,19 @@
 
 ---
 
+## Don't Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
+
+- ACL 2020
+- link: https://aclanthology.org/2020.acl-main.428/
+
+
+
+
+
+---
+
 ## Learning to summarize with human feedback
 
 - NeurIPS 2020
 - link: https://proceedings.neurips.cc/paper/2020/file/1f89885d556929e98d3ef9b86448f951-Paper.pdf
+- 강화학습
