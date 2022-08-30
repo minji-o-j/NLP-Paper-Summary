@@ -33,6 +33,29 @@
 
 ---
 
+## FUDGE: Controlled Text Generation With Future Discriminators
+
+- NAACL 2021
+
+- link: https://aclanthology.org/2021.naacl-main.276/
+
+- code: https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation
+
+- large language model에 특정 속성 α를 적용시키려 할 때 **재학습 or data fine-tuning하지 않고 속성을 적용하는 법**에 대한 연구
+
+- Model
+
+  ![image-20220830121007757](C:\Users\Minji\AppData\Roaming\Typora\typora-user-images\image-20220830121007757.png)
+
+  - 남색 블럭: 다음 토큰 예측(기존 language generate model decoder)
+  - 빨간 블럭: 속성 α가 미래에 나타날 것인가에 대한 binary classifier
+    - 남색 블럭에서 나온 결과에 대한 확률(do you want, do you prefer, do you thus, ...)
+  - 두 확률의 곱이 높은 토큰이 x3이 된다
+
+
+
+---
+
 ## Don't Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
 
 - ACL 2020
