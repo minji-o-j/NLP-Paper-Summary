@@ -56,6 +56,17 @@
 
 ---
 
+## The EOS Decision and Length Extrapolation
+
+- BlackboxNLP 2020 (EMNLP)
+- link: https://aclanthology.org/2020.blackboxnlp-1.26/
+- train data보다 긴 길이의 문장을 생성할 때(외삽) task에서의 성능 평가
+- test에서 generation시 문장을 계속해서 생성하다가, length oracle(실제 ground truth의 길이만큼 자름)
+  - ![image](https://user-images.githubusercontent.com/45448731/192455217-f404190f-f7fe-498e-aab4-a362099598d5.png)
+-  train에서 EOS 토큰을 학습시킬 경우 (+EOS)보다 학습시키지 않을 경우 (-EOS)의 성능이 더 좋았음 
+
+---
+
 ## Don't Say That! Making Inconsistent Dialogue Unlikely with Unlikelihood Training
 
 - ACL 2020
