@@ -63,7 +63,10 @@
 - train data보다 긴 길이의 문장을 생성할 때(외삽) task에서의 성능 평가
 - test에서 generation시 문장을 계속해서 생성하다가, length oracle(실제 ground truth의 길이만큼 자름)
   - ![image](https://user-images.githubusercontent.com/45448731/192455217-f404190f-f7fe-498e-aab4-a362099598d5.png)
--  train에서 EOS 토큰을 학습시킬 경우 (+EOS)보다 학습시키지 않을 경우 (-EOS)의 성능이 더 좋았음 
+- train에서 EOS 토큰을 학습시킬 경우 (+EOS)보다 학습시키지 않을 경우 (-EOS)의 성능이 더 좋았음 
+- 아직 잘 모르겠는 것 (찾고자 하는 내용과 논문이 거리가 멀어서 패스함):
+  - ![image-20220927160239412](C:\Users\Minji\AppData\Roaming\Typora\typora-user-images\image-20220927160239412.png)
+
 
 ---
 
